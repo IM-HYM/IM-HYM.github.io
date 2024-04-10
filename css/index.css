@@ -1,0 +1,97 @@
+h1  {
+    text-align: center;
+    font-size: 75px;
+    color: rgb(231, 231, 231);
+}
+
+h3{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(231, 231, 231);
+}
+
+.pro-text{
+        font-weight: bold;
+        font-style: italic;
+}
+
+* {
+    font-family: sans-serif;
+    /* margin-bottom: 1px;
+    padding-bottom: 1px; */
+    }
+
+
+
+/* styles.css */
+
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 18px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.me {
+    position: absolute;
+    top: 45%; /*+ kathbt lta7t*/
+    left: 66%; /*+ katmchi n limin*/
+    transform: translate(-50%, -50%); /* يصحح موقع الصورة بحيث تكون في وسط العنصر الأب */
+    border-radius: 50%;
+    width: 140px;
+}
+
+.THM {
+    position: absolute;
+    top: 80%; /*+ kathbt lta7t*/
+    left: 50%; /*+ katmchi n limin*/
+    transform: translate(-50%, -50%); /* يصحح موقع الصورة بحيث تكون في وسط العنصر الأب */
+    border-radius: 45%;
+    width: 45px;
+}
+.github {
+    position: absolute;
+    top: 80%; /*+ kathbt lta7t*/
+    left: 55%; /*+ katmchi n limin*/
+    transform: translate(-50%, -50%); /* يصحح موقع الصورة بحيث تكون في وسط العنصر الأب */
+    border-radius: 45%;
+    width: 45px;
+}
+
+
+.ld {
+    position: absolute;
+    top: 80%; /*+ kathbt lta7t*/
+    left: 45%; /*+ katmchi n limin*/
+    transform: translate(-50%, -50%); /* يصحح موقع الصورة بحيث تكون في وسط العنصر الأب */
+    border-radius: 45%;
+    width: 45px;
+}

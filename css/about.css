@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 18px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.me {
+    position: absolute;
+    top: 50%; /*+ kathbt lta7t*/
+    left: 75%; /*+ katmchi n limin*/
+    transform: translate(-50%, -50%); /* يصحح موقع الصورة بحيث تكون في وسط العنصر الأب */
+    border-radius: 3%;
+    width: 350px;
+}
+
+pre {
+    color: white;
+    font-family: sans-serif;
+    font-size: 24px;
+    /* text-align: ; */
+
+
+}
+* {
+    font-family: sans-serif;
+
+    /* margin-bottom: 1px;
+    padding-bottom: 1px; */
+    }
+
+    

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Skills.html">Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<div class="home-content" data-scroll data-scroll-speed="-5">
+    <br><br><br><br><br><br><br><br>
+    <h1>is-HYM</h1>
+    <h3>I'm a <span class="pro-text"></span></h3>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function(){
+        var typed = new Typed(".pro-text", {
+            strings: [
+                        "Ethical Hacker",
+                        "full stack Developer",
+                        "Developer",
+                        "Photo Editor",
+                        "Freelancer"
+            ],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 1000,
+            loop: true
+        });
+    });
+</script>
+
+<img src="imgs/me.jpeg" alt="this is me" class="me">
+<a href="https://tryhackme.com/r/manage-account/account-details"><img src="imgs/THM.jpg" alt="my THM acount" class="THM"></a>
+
+<a href="https://github.com/is-HYM/"><img src="imgs/github.png" alt="my github acount" class="github"></a>
+
+<a href="https://www.linkedin.com/in/is-hym-062a9a1a2/"><img src="imgs/ld.png" alt="my linkedin acount" class="ld"></a>
+</body>
+</html>
